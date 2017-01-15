@@ -6,7 +6,7 @@ h1 {
 	text-align: center;
 }
 
-p {
+section {
 	width: 90%;
 	height: 180;
 	overflow: auto;
@@ -24,14 +24,14 @@ p {
 .container-header {
 	position: relative;
 	width: 25%
-	left: 75%;
+	left: 200px;
+	background-color: #1E73bE;
 }
 
 @media (min-width: 992px)
 {
 	.col-lg-4, .col-lg-12 {
-		float: left;
-		margin-right: 5px;		
+		float: left;	
 	}
 
 	.col-lg-4 {
@@ -47,8 +47,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px)
 {
 	.col-md-6, .col-md-12 {
-		float: left;			
-		margin-right: 5px;
+		float: left;
 	}
 
 	.col-md-6 {
