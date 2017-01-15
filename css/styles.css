@@ -23,9 +23,11 @@ h1 {
 
 .container-header {
 	position: relative;
-	width: 100px
-	height: 30px;
+	width: 60px
+	height: 50px;
 	left: 200px;
+	margin-right: auto;
+	margin-left: auto;
 	background-color: #1E73bE;
 }
 
