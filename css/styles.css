@@ -13,7 +13,8 @@ p {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
-	border: 1px solid black;
+	border: 1px solid black;	
+	background-color: #444444;
 }
 
 .row {
@@ -23,8 +24,8 @@ p {
 @media (min-width: 992px)
 {
 	.col-lg-4, .col-lg-12 {
-		float: left;		
-		background-color: #ffaaff;
+		float: left;
+		margin-left: 10px;		
 	}
 
 	.col-lg-4 {
@@ -40,8 +41,8 @@ p {
 @media (min-width: 768px) and (max-width: 991px)
 {
 	.col-md-6, .col-md-12 {
-		float: left;		
-		background-color: #ffaaff;
+		float: left;			
+		margin-left: 10px;
 	}
 
 	.col-md-6 {
