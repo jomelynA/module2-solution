@@ -23,7 +23,8 @@ h1 {
 
 .container-header {
 	position: relative;
-	width: 25%
+	width: 100px
+	height: 30px;
 	left: 200px;
 	background-color: #1E73bE;
 }
