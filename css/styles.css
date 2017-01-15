@@ -16,11 +16,15 @@ p {
 	border: 1px solid black;
 }
 
+.row {
+	width: 100%;
+}
+
 @media (min-width: 992px)
 {
 	.col-lg-4, .col-lg-12 {
 		float: left;		
-		background-color: #444444;
+		background-color: #ffaaff;
 	}
 
 	.col-lg-4 {
@@ -37,7 +41,7 @@ p {
 {
 	.col-md-6, .col-md-12 {
 		float: left;		
-		background-color: #444444;
+		background-color: #ffaaff;
 	}
 
 	.col-md-6 {
