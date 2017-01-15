@@ -7,9 +7,12 @@ h1 {
 }
 
 p {
+	width: 90%
+	height: 200px;
+	overflow: auto;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: gray;
+	background-color: #444444;
 }
 
 @media (min-width: 992px)
