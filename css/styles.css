@@ -8,7 +8,7 @@ h1 {
 
 p {
 	width: 90%;
-	height: 200px;
+	height: 180;
 	overflow: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -19,6 +19,12 @@ p {
 
 .row {
 	width: 100%;
+}
+
+.container-header {
+	position: relative;
+	width: 25%
+	left: 75%;
 }
 
 @media (min-width: 992px)
